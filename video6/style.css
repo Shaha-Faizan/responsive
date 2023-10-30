@@ -1,0 +1,60 @@
+h1{
+    font-family: 'Playpen Sans', cursive;
+font-family: 'PT Serif', serif;
+}
+.main{
+    display: flex;
+}
+.video{
+    background-color: blue;
+    border: 5px solid white;
+    height: 250px;
+    border-radius: 20px;
+    word-spacing: 30px;
+    flex:1;
+}
+.a{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.second{
+    display: flex;
+}
+.b{
+    border: 5px solid;
+    border-radius: 10px;
+    flex: 1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 7px;
+}
+#f{
+    background-color: aqua;
+}
+#x{
+    background-color: rgb(249, 181, 114);
+}
+#y{
+    background-color: rgb(250, 248, 237);
+}
+body{
+    background-color: rgb(153, 176, 128);
+}
+.q{
+    position: relative;
+    top: 110px;
+}
+.s{
+    position: relative;
+    top: 100px;
+}
+textarea{
+    border-radius: 10px;
+}
+@media(min-width:300px){
+    .main{
+        height: 250px;
+        width: auto;
+    }
+
+}
